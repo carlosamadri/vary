@@ -157,16 +157,12 @@ console.log("The division gives " + (number2 / number3));
 
 // Declarar 5 mensajes diferentes en pantalla, sin limite de palabras.
 console.log("Declaración de mensaje:");
-let greetings = "Hi!";
-console.log(greetings);
-let presentation = "My name is Carlos";
-console.log(presentation);
-let funFact = "Yeah, is Carlos with an S but I'm only one. LOL.";
-console.log(funFact);
-let closing = "Well, that's all.";
-console.log(closing);
+let greetings = "Hi! ";
+let presentation = "My name is Carlos. ";
+let funFact = "Yeah, is Carlos with an S but I'm only one. LOL. ";
+let closing = "Well, that's all. ";
 let bye = "Bye!";
-console.log(bye);
+console.log(greetings + presentation + funFact + closing + bye);
 
 // Declarar 5 variables y convertirlas a otro tipo de dato.
 console.log("Declaración de variables convertidas:");
